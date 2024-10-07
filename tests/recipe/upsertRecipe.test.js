@@ -13,7 +13,7 @@ describe('Upsert Recipe RPC', () => {
     const _preparation_time = '30 minutes'; // Exemplo de tempo de preparo
     const _recipe_id = null; // ID da receita, pode ser nulo para um novo registro
     const _recipe_picture = 'http://example.com/recipe.jpg'; // URL da imagem da receita
-    const _user_id = 'e52bbed7-5989-41b2-871d-68dfaf12e6fb'; // ID do usuário
+    const _user_id = 'bad32d0f-2306-49f0-aee7-63f689149004'; // ID do usuário
 
     const { data, error } = await supabase
       .rpc('upsert_recipe', {
